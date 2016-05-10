@@ -1,0 +1,36 @@
+Buildfile: /home/joyce/CodeU/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/build.xml
+
+build-subprojects:
+
+init:
+
+build-project:
+     [echo] JavaCS: /home/joyce/CodeU/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/build.xml
+    [javac] Compiling 2 source files to /home/joyce/CodeU/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/bin
+    [javac] /home/joyce/CodeU/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/src/com/flatironschool/javacs/WikiPhilosophy.java:50: error: cannot find symbol
+    [javac]         if (url.equals(philosophy)) // Finished, print out links
+    [javac]                        ^
+    [javac]   symbol:   variable philosophy
+    [javac]   location: class WikiPhilosophy
+    [javac] /home/joyce/CodeU/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/src/com/flatironschool/javacs/WikiPhilosophy.java:53: error: variable url is already defined in method depthFirstParse(String)
+    [javac]             for (String url : visited)
+    [javac]                         ^
+    [javac] /home/joyce/CodeU/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/src/com/flatironschool/javacs/WikiPhilosophy.java:75: error: non-static method isValid(Element,String) cannot be referenced from a static context
+    [javac]                             if (isValid(current, url))
+    [javac]                                 ^
+    [javac] /home/joyce/CodeU/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/src/com/flatironschool/javacs/WikiPhilosophy.java:78: error: cannot find symbol
+    [javac]                                 visitedUrls.add(next);
+    [javac]                                 ^
+    [javac]   symbol:   variable visitedUrls
+    [javac]   location: class WikiPhilosophy
+    [javac] /home/joyce/CodeU/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/src/com/flatironschool/javacs/WikiPhilosophy.java:94: error: cannot find symbol
+    [javac]         String next = node.attr("abs:href");
+    [javac]                       ^
+    [javac]   symbol:   variable node
+    [javac]   location: class WikiPhilosophy
+    [javac] /home/joyce/CodeU/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/src/com/flatironschool/javacs/WikiPhilosophy.java:97: error: cannot find symbol
+    [javac]         Element parent = (Element) elem.parentNode();
+    [javac]                                    ^
+    [javac]   symbol:   variable elem
+    [javac]   location: class WikiPhilosophy
+    [javac] 6 errors

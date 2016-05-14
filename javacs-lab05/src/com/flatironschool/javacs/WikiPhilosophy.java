@@ -42,6 +42,8 @@ public class WikiPhilosophy {
 	}
 
     public static void depthFirstParse (String url) throws IOException{
+        System.out.println("Parsing " + url);
+        if (visited.contains(url)) return;
         if (url.equals(philosophy_url)) // Finished, print out links
         {   
             System.out.println(visited.size() + "pages taken to reach the Philosophy Wikipedia page:");

@@ -1,0 +1,28 @@
+Buildfile: /home/joyce/CodeU/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/build.xml
+
+clean:
+   [delete] Deleting directory /home/joyce/CodeU/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /home/joyce/CodeU/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/build.xml
+
+build-subprojects:
+
+init:
+    [mkdir] Created dir: /home/joyce/CodeU/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/bin
+
+build-project:
+     [echo] JavaCS: /home/joyce/CodeU/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/build.xml
+    [javac] Compiling 5 source files to /home/joyce/CodeU/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/bin
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Buildfile: /home/joyce/CodeU/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/build.xml
+
+WikiPhilosophyTest:
+    [mkdir] Created dir: /home/joyce/CodeU/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/junit
+    [junit] Running com.flatironschool.javacs.WikiPhilosophyTest
+    [junit] Testsuite: com.flatironschool.javacs.WikiPhilosophyTest
